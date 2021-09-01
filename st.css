@@ -1,0 +1,274 @@
+@charset "Shift_JIS"; 
+
+* {
+margin: 0;
+padding: 0;
+font-weight : normal;
+font-style : normal; 
+}
+
+
+/* -------------------------------------------- */ 
+/* 基本
+/* -------------------------------------------- */ 
+
+body {
+overflow-y:scroll;
+font-size : 70%;
+color: #666666;
+font-family:Verdana,Chicago,osaka,sans-serif,"ＭＳ Ｐゴシック";
+line-height: 150%;
+letter-spacing : 1px;
+text-align: center;
+background :#666666 url(img/wall.gif) repeat-x;
+}
+img {
+border: 0;
+}
+br {
+letter-spacing : normal; 
+}
+ul,li {
+list-style: none;
+}
+
+
+/* -------------------------------------------- */ 
+/* アンカー
+/* -------------------------------------------- */ 
+
+a{
+color: #666666;
+text-decoration : none;
+}
+a:hover{
+color: #ffffff;
+}
+
+
+/* -------------------------------------------- */ 
+/* 見出し/段落/テキスト
+/* -------------------------------------------- */ 
+
+h1 {
+font-size: 200%;
+font-family : "Century Gothic", "ＭＳ ゴシック", Osaka, sans-serif; 
+padding: 20px;
+}
+h2 {
+font-size: 130%;
+font-family : "Century Gothic", "ＭＳ ゴシック", Osaka, sans-serif; 
+border-left : 40px solid #666666;
+margin: 20px 0 ;
+padding: 0 0 0 10px;
+}
+h3 {
+font-size : 100%; 
+font-family : "Century Gothic", "ＭＳ ゴシック", Osaka, sans-serif;
+border-bottom:dotted 1px #333333;
+margin: 0 0 5px;
+} 
+h4{
+font-size : 100%; 
+margin: 0 0 5px;
+}
+p {
+font-size : 100%;
+padding: 0 0 10px;
+}
+em{
+color : #ffffff; 
+}
+strong{
+font-weight:bold;
+color : #000000; 
+background-color: #ffffff;
+}
+del{
+text-decoration:line-through;
+}
+ins {
+text-decoration: underline;
+} 
+.text {
+font-size : 100%;
+margin: 10px 0 10px;
+}
+
+
+/* -------------------------------------------- */ 
+/* ページ全体
+/* -------------------------------------------- */ 
+
+#page{
+margin: 0 auto;
+width: 600px;
+background-color: #000000;
+text-align: left;
+}
+
+
+/* -------------------------------------------- */ 
+/* ヘッダー
+/* -------------------------------------------- */ 
+
+#head {
+width: 600px;
+height: 300px;
+font-family : "Century Gothic", "ＭＳ ゴシック", Osaka, sans-serif; 
+background :#000000 url(img/photo.jpg) no-repeat;
+}
+
+
+/* -------------------------------------------- */ 
+/* メニュー
+/* -------------------------------------------- */ 
+
+#menu{
+margin: 10px;
+}
+#menu ul{
+text-align: right;
+}
+#menu li{
+display: inline;
+padding: 0px 3px;
+}
+
+
+/* -------------------------------------------- */ 
+/* コンテンツ
+/* -------------------------------------------- */ 
+
+#contents{
+margin: 0 20px;
+}
+
+
+/* -------------------------------------------- */ 
+/* フッター
+/* -------------------------------------------- */ 
+
+#foot {
+text-align: center;
+padding: 10px 0 20px;
+}
+#foot li{
+display: inline;
+padding: 20px 10px;
+}
+
+
+/* -------------------------------------------- */ 
+/* 装飾ボックス
+/* -------------------------------------------- */ 
+
+.box{
+width :auto;
+color : #000000;
+border : 3px solid #666666;
+background :#666666 url(img/box.gif);
+margin: 0 0 10px;
+padding:10px;
+}
+
+
+/* -------------------------------------------- */ 
+/* スクロールボックス
+/* -------------------------------------------- */ 
+
+.info {
+overflow: auto;
+width : 560px;
+height : 80px;
+margin: 15px 0;
+}
+
+
+/* -------------------------------------------- */ 
+/* メールフォーム
+/* -------------------------------------------- */ 
+
+.mail textarea,.mail input{
+font-size : 100%; 
+color : #999999; 
+border : 1px solid #666666;
+background :#666666 url(img/box.gif);
+margin: 2px 0;
+padding : 1px;
+}
+
+
+/* -------------------------------------------- */ 
+/* リンクページ
+/* -------------------------------------------- */ 
+
+ul.link01,ul.link02{
+padding : 0 0 10px;
+}
+ul.link01 li{
+display: inline;
+padding : 0 10px 5px 0;
+}
+ul.link02 li{
+display: inline;
+}
+dl.link03 {
+clear:both;
+padding : 5px 0 0 0;
+}
+dl.link03 dt{
+float:left;
+width:200px;/* 使用するバナーの横幅 */
+margin:0 10px 0 0;
+}
+
+
+/* -------------------------------------------- */ 
+/* 画像・テキストページメニュー
+/* -------------------------------------------- */ 
+
+ul.sub01{
+margin: 0 0 20px;
+}
+ul.sub02{
+margin: -5px 0 10px;
+}
+ul.sub02 li{
+display: inline;
+padding : 0 3px 1px 0;
+}
+
+
+
+/* -------------------------------------------- */ 
+/* 画像・テキストページ
+/* -------------------------------------------- */ 
+
+.text01 {
+font-size : 120%;
+line-height : 180%; 
+margin:10px 0 20px;
+}
+.img{
+text-align : center;
+margin:40px 0 20px;
+}
+ul.navi {
+text-align : center;
+margin: 20px;
+}
+ul.navi li{
+display: inline;
+padding: 0 5px;
+}
+
+
+/* -------------------------------------------- */ 
+/* ページトップ
+/* -------------------------------------------- */ 
+
+.pagetop{
+text-align : right;
+margin: 0 0 10px;
+}
